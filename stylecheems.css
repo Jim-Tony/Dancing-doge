@@ -1,0 +1,32 @@
+.container-2{
+    width: 75%;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.flex-box-container-2{
+    display: flex;
+    border: 2px solid black;
+    padding: 15px;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.flex-box-container-3{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border:2px solid rgb(194, 192, 192);
+    padding: 10px;
+    
+}
+.flex-box-container-2 > div{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 13px;
+}
+#doge-img{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6) ;
+    padding: 10px; 
+    border : 1px solid black;
+}
